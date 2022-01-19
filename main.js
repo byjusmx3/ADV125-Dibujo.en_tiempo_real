@@ -27,7 +27,7 @@ function gotPoses(results)
     console.log(results);
     noseX = results[0].pose.nose.x;
     noseY = results[0].pose.nose.y;
-    console.log("narizX = " + noseX +" narizY = " + noseY);
+    console.log("noseX = " + noseX +" noseY = " + noseY);
 
     leftWristX = results[0].pose.leftWrist.x;
     rightWristX = results[0].pose.rightWrist.x;
